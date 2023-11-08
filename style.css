@@ -1,0 +1,170 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    background-size: cover;
+    max-zoom: 100%;
+    min-zoom: 90%;
+    }
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+    display: flex;
+
+
+}
+
+.header {
+    background-image: url("CSS/imagenes/OnePiece-Store-Banner-1920x730px.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0px;
+    position: relative;
+}
+
+.logo {
+    width: 70%;
+    text-align: center;
+
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.nav li {
+    color: white;
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contenido
+{   background-color: #ffffff;
+    margin: 30px;
+    padding: 49px;
+    border-radius: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    
+}
+
+d.todo
+{
+    display: flex;
+
+}
+
+div.img
+{
+    text-align: right;
+}
+.linea
+{    display: inline;
+    margin-left: 20px;
+    
+}
+
+a.ini
+{
+    color:#fff;
+    text-decoration: none;
+    text-align: right;
+}
+
+h1.two
+{   width: 90%;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(224, 8, 8, 0.836);
+    max-height: 111px;
+    margin: 0px auto;
+
+}
+
+h1.three
+{  
+    text-align: right;
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.836);
+    max-width: 100px;
+}
+
+div{
+text-align: center;
+    align-items: center;
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+a.productos
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: #fff;
+    color: #0f0101;
+    text-decoration: none;
+    padding: 10px 50px;
+    box-shadow: 0 0 20px rgba(40, 8, 224, 0.836);
+    
+    border-width: 30px;
+    max-width: 30px;
+
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 50s infinite alternate forwards;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 400px;
+    height: 400px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
